@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px;
+    list-style: none;
+}
+
+ul li {
+    border: 1px solid #000;
+    padding: 12px;
+}
+
+.normal {
+    background-color: aquamarine;
+}
+
+.fire {
+    background-color: red;
+}
+
+.grass {
+    background-color: green;
+}
+
+.bug {
+    background-color: #03665f;
+}
